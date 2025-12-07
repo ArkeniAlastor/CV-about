@@ -1,4 +1,3 @@
-
 :root {
     --bg-dark: #071428;
     --panel-dark: #0d1b2a;
@@ -105,9 +104,24 @@ body {
     font-size: 14px
 }
 
-.contact-block{background:rgba(255,255,255,0.02);padding:12px;border-radius:8px;margin:8px 0 14px;color:#dfe7ef}
-.contact-block p{margin:6px 0;font-size:13px;color:#dbe7f0}
-.contact-block a{color:var(--accent);text-decoration:none}
+.contact-block {
+    background: rgba(255, 255, 255, 0.02);
+    padding: 12px;
+    border-radius: 8px;
+    margin: 8px 0 14px;
+    color: #dfe7ef
+}
+
+.contact-block p {
+    margin: 6px 0;
+    font-size: 13px;
+    color: #dbe7f0
+}
+
+.contact-block a {
+    color: var(--accent);
+    text-decoration: none
+}
 
 .skill-circles {
     display: flex;
