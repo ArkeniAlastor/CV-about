@@ -1,4 +1,3 @@
-// Interactivity: selectable icons and avatar error fallback
 document.addEventListener('DOMContentLoaded', function () {
     const avatar = document.getElementById('avatar-img');
     const circles = Array.from(document.querySelectorAll('.circle'));
